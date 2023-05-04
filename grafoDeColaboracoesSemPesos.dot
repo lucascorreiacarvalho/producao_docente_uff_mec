@@ -1,0 +1,35 @@
+strict graph grafo1 {
+	graph [bb="0,0,239,135",
+		id=grafo1,
+		overlap=False
+	];
+	node [fontsize=12,
+		label="\N",
+		shape=rectangle,
+		style=filled
+	];
+	0	[URL="membro-2837012019824386.html",
+		color="#0A6EA4",
+		fontcolor="#FFFFFF",
+		height=0.29167,
+		label="Andréa Britto Mattos [2]",
+		pos="143,124.5",
+		width=2.3056];
+	1	[URL="membro-4727357182510680.html",
+		color="#0A6EA4",
+		fontcolor="#FFFFFF",
+		height=0.29167,
+		label="Jesús P. Mena Chalco [13]",
+		pos="86,67.5",
+		width=2.3889];
+	0 -- 1	[pos="133.07,113.92 122.74,103.95 106.63,88.408 96.199,78.341"];
+	2	[URL="membro-2240951178648368.html",
+		color="#0A6EA4",
+		fontcolor="#FFFFFF",
+		height=0.29167,
+		label="Roberto M. Cesar Junior [12]",
+		pos="143,10.5",
+		width=2.6667];
+	0 -- 2	[pos="154.81,113.68 163.92,105.29 175.81,92.319 181,78 184.18,69.226 184.18,65.774 181,57 175.81,42.681 163.92,29.711 154.81,21.316"];
+	1 -- 2	[pos="95.929,56.92 106.26,46.948 122.37,31.408 132.8,21.341"];
+}
