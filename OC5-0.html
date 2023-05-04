@@ -1,0 +1,195 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Perfil dos Docentes do Curso de Sociologia</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Perfil dos Docentes do Curso de Sociologia</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Iniciação científica'}, 
+series: [{data: [[2020,
+7],
+[2021,
+10],
+[2022,
+4]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Iniciação científica</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 21<br>
+                    
+                    
+                    <div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Francisca Dafne Letelier Gama. <b>O Comperj na imprensa: notícias sobre as realidades imaginadas e vividas</b>. (Graduando em Sociologia) - Universidade Federal Fluminense, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0957127806882841">Marcos Otavio Bezerra</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Gabriela Valle Garcia Serafim. <b>Percepções sobre o mundo do trabalho entre eleitores da ultradireita no Brasil</b>. (Graduando em Antropologia) - Universidade Federal Fluminense, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1926364336557376">Raquel Guilherme de Lima</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Marcela da Silva Canto Bastos. <b>Sociologia na Wikipédia: comunicação científica e mudança cultural</b>. (Graduando em Ciências Sociais) - Universidade Federal Fluminense, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5149701777708320">Lucas Correia Carvalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Rafael Ribeiro Santiago. <b>Universidade e desenvolvimento territorial: a interação entre UFF e o município de Niterói</b>. (Graduando em Ciências Sociais) - Universidade Federal Fluminense, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8125255183526494">Carolina Zuccarelli Soares</a>.</font></td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Allan Alves Rodrigues. <b>Wikipedia: edições e leitores dos verbetes sobre conservadorismo</b>. (Graduando em Sociologia) - Universidade Federal Fluminense, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5149701777708320">Lucas Correia Carvalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Esther Pieruccini Rodrigues Da Silva. <b>Gênero, raça e desigualdades na carreira docente: um estudo organizacional na Universidade Federal Fluminense</b>. (Graduando em Ciências Sociais) - Universidade Federal Fluminense, Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4017198138135829">Verônica Toste Daflon</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Larissa de Fátima Ramalho. <b>Estratificação da educação básica brasileira: uma abordagem multidimensional</b>. (Graduando em Ciências Sociais) - Universidade Federal Fluminense, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8125255183526494">Carolina Zuccarelli Soares</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Maria Gabriela Caldas Roza Couto. <b>O Museu do Samba, participação e políticas públicas de cultura</b>. (Graduando em Antropologia) - Universidade Federal Fluminense, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5444434236826175">Renata de Sá Gonçalves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Mariana Coelho Gondim. <b>Estratificação da educação básica brasileira: uma abordagem multidimensional</b>. (Graduando em Ciências Sociais) - Universidade Federal Fluminense, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8125255183526494">Carolina Zuccarelli Soares</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Mariana Correia da Silva. <b>MAPEAMENTO DAS POSSIBILIDADES DE INTEGRAÇÃO DO ECOFEMINISMO NAS UNIVERSIDADES: UMA PROPOSTA</b>. (Graduando em Sociologia) - Universidade Federal Fluminense, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1277202985083208">Leticia Helena Medeiros Veloso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Rafael Ribeiro Santiago. <b>Formaçao e carreiras docentes</b>. (Graduando em Ciências Sociais) - Universidade Federal Fluminense, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8125255183526494">Carolina Zuccarelli Soares</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>RAFAELLA CARVALHO DA ROCHA NAVES. <b>Police special operations and armed criminal groups in Rio de Janeiro</b>. (Graduando em Sociologia) - Universidade Federal Fluminense, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4886588496142072">Daniel Veloso Hirata</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Stefany Ciolfi de Souza. <b>Das Obras e Infraestruturas aos Condomínios Fechados de Itaboraí: Transformações Socioespaciais e Nas Formas de Moradia Associadas ao Complexo Petroquímico do Rio de Janeiro (Comperj)</b>. Iniciação Científica - Universidade Federal Fluminense, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6278747409995827">André Dumans Guedes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Thays Oliveira Espindola Cruz. <b>Estratificação da educação brasileira: uma abordagem multidimensional</b>. (Graduando em Abi - Ciências Sociais) - Universidade Federal Fluminense, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8125255183526494">Carolina Zuccarelli Soares</a>.</font></td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ana Clara Matias Rocha. <b>Gênero, raça e desigualdades na carreira docente: um estudo organizacional na Universidade Federal Fluminense</b>. (Graduando em Sociologia) - Universidade Federal Fluminense, Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4017198138135829">Verônica Toste Daflon</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Caio Mattos Santos. <b>Cinema e Ditadura em Plataforma Virtual</b>. (Graduando em Antropologia) - Universidade Federal Fluminense, uff. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7461074173452047">Joana DArc Fernandes Ferraz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Fillipe Alexandre Oliveira Alves. <b>A antropologia e o patrimônio cultural: participação e políticas públicas de cultura</b>. (Graduando em Ciências Sociais) - Universidade Federal Fluminense, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5444434236826175">Renata de Sá Gonçalves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Jorge Carlos Dias de Souza Junior. <b>A construção do Plano Diretor de Itaboraí e seus efeitos sobre o espaço rural</b>. (Graduando em Sociologia) - Universidade Federal Fluminense, PIBIC-UFF. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0407753156463593">Valter Lucio de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Mateus Alves. <b>Formas de Governo, Mobilidades, Casas e a Relação Rural-Urbano na Investigação dos Efeitos Sociais e Territoriais Produzidos pelo Complexo Petroquímico do Rio de Janeiro (COMPERJ)</b>. (Graduando em Abi - Ciências Sociais) - Universidade Federal Fluminense, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0407753156463593">Valter Lucio de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Stefany Ciolfi de Souza. <b>Transformações nas Infraestruturas Urbanas e nas Formas de Moradia Induzidas pelas Obras e Expectativas Associadas ao Complexo Petroquímico do Rio de Janeiro (COMPERJ) no Leste Fluminense.</b>. Iniciação Científica - Universidade Federal Fluminense, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6278747409995827">André Dumans Guedes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Vitor Hugo Mendes Pereira. <b>Mensalão: sociologia da produção intelectual</b>. (Graduando em Ciências Sociais) - Universidade Federal Fluminense, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0957127806882841">Marcos Otavio Bezerra</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2020 até 2022
+<br>Data de processamento: 03/05/2023 07:28:00<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:admin@email.com">admin@email.com</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              
